@@ -1,22 +1,22 @@
 //
-//  ViewController.m
+//  LCQSwipePageViewController.m
 //  GuidePage
 //
 //  Created by 李长青 on 15/8/18.
 //  Copyright (c) 2015年 李长青. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "LCQSwipePageViewController.h"
 
 #define k_Base_Tag  10000
 #define k_Rotate_Rate 1
 #define K_SCREEN_WIDHT [UIScreen mainScreen].bounds.size.width  //屏幕宽度
 #define K_SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height    //屏幕高
-@interface ViewController ()<UIScrollViewDelegate>
+@interface LCQSwipePageViewController ()<UIScrollViewDelegate>
 
 @end
 
-@implementation ViewController
+@implementation LCQSwipePageViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
