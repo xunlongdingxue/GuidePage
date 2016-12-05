@@ -16,11 +16,11 @@ Pod::Spec.new do |s|
                   The GuidePage is first demo Test!
                    DESC
 
-  s.homepage     = "http://github.com/xunlongdingxue/GuidePage"
+  s.homepage     = "https://github.com/xunlongdingxue/GuidePage"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = { "lichangqing" => "914078998@qq.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "http://github.com/xunlongdingxue/GuidePage.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/xunlongdingxue/GuidePage.git", :tag => "#{s.version}" }
   s.source_files  = "GuidePage/Classes", "GuidePage/Classes/**/*.{h,m}"
   #s.exclude_files = "Classes/Resources"
   s.public_header_files = "GuidePage/Classes/**/*.h"
