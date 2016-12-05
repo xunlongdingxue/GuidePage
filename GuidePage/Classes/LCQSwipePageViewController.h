@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LCQSwipePageViewController.h
 //  GuidePage
 //
 //  Created by 李长青 on 15/8/18.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface LCQSwipePageViewController : UIViewController
 
 
 @end

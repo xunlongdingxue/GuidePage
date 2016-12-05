@@ -18,13 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    
-    UIView *keyView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, K_SCREEN_WIDHT, K_SCREEN_HEIGHT)];
-    keyView.backgroundColor = [UIColor cyanColor];
-    keyView.alpha = 0.3;
-    
-    [_window addSubview:keyView];
-    
+
     
     return YES;
 }
